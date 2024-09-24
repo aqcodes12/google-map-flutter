@@ -1,0 +1,26 @@
+name: google_maps
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_polyline_points: ^2.1.0
+  geocoding: ^3.0.0
+  google_maps_flutter: ^2.2.8
+  google_maps_polyline: ^1.0.3
+  google_places_flutter: ^2.0.9
+  http: ^1.2.2
+  location: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
